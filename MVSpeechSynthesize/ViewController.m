@@ -19,6 +19,7 @@
 -(IBAction)startRead:(id)sender;
 -(IBAction)languagePress:(id)sender;
 -(IBAction)skipPress:(id)sender;
+- (IBAction)pauseButtonTapped:(id)sender;
 @end
 
 @implementation ViewController
@@ -113,6 +114,21 @@
      [_languageButton setEnabled:YES];
     _helpView.hidden=YES;
 }
+
+- (IBAction)pauseButtonTapped:(id)sender {
+    MVSpeechSynthesizer *mvSpeech=[MVSpeechSynthesizer sharedSyntheSize];
+    if([[sender currentTitle]isEqualToString:@"Pause"]){
+        [sender setTitle:@"Resume" forState:UIControlStateNormal];
+        [mvSpeech pauseReading];
+    }
+    else{
+        [sender setTitle:@"Pause" forState:UIControlStateNormal];
+        [mvSpeech continueReading];
+    }
+
+}
+
+
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
     [_sampleTextview resignFirstResponder];
 }
