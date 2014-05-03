@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "84B4B71018D6FC5100459915"
-               BuildableName = "MVSpeechSynthesize.app"
+               BuildableName = "iReader.app"
                BlueprintName = "MVSpeechSynthesize"
                ReferencedContainer = "container:MVSpeechSynthesize.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84B4B71018D6FC5100459915"
-            BuildableName = "MVSpeechSynthesize.app"
+            BuildableName = "iReader.app"
             BlueprintName = "MVSpeechSynthesize"
             ReferencedContainer = "container:MVSpeechSynthesize.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84B4B71018D6FC5100459915"
-            BuildableName = "MVSpeechSynthesize.app"
+            BuildableName = "iReader.app"
             BlueprintName = "MVSpeechSynthesize"
             ReferencedContainer = "container:MVSpeechSynthesize.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84B4B71018D6FC5100459915"
-            BuildableName = "MVSpeechSynthesize.app"
+            BuildableName = "iReader.app"
             BlueprintName = "MVSpeechSynthesize"
             ReferencedContainer = "container:MVSpeechSynthesize.xcodeproj">
          </BuildableReference>

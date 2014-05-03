@@ -37,7 +37,7 @@
         _speechSynthesizer=[[AVSpeechSynthesizer alloc]init];
         _speechSynthesizer.delegate=self;
         _speechBoundary=AVSpeechBoundaryImmediate;
-        _uRate=AVSpeechUtteranceDefaultSpeechRate/8;
+        _uRate=AVSpeechUtteranceDefaultSpeechRate/3;
         _pitchMultiplier=1.2;
         _higlightColor=[UIColor blueColor];
         _speechLanguage=nil;
